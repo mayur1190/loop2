@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       var task = true;
+
+       while(task){
+
+           var option = parseInt(window.prompt('select your chioce : 1)add 2)sub  3)div 4)exit' ))
+
+            if(option == 1 ){
+
+            var num1 = parseInt(window.prompt('enter the first number '));
+            var num2 = parseInt(window.prompt('enter the second number'));
+            function add(a, b) {
+                alert(a+b);
+            }
+
+            add(num1, num2)
+       }
+       else if (option == 2 ) {
+
+        var num1 = parseInt(window.prompt('enter the first number '));
+        var num2 = parseInt(window.prompt('enter the second number'));
+        function sub(a, b)  {
+            alert(a - b);
+        }
+
+        sub(num1, num2)
+       }
+       else if (option == 3 ) {
+
+        var num1 = parseInt(window.prompt('enter the first number '));
+        var num2 = parseInt(window.prompt('enter the second number'));
+        function mul(a, b)  {
+            alert(a * b);
+        }
+
+        mul(num1, num2)
+       }
+       else if (option == 4) {
+
+        alert('thank you')
+        task = false;
+       }
+    }
+    
+
+
+
+   </script> 
+</body>
+</html>
